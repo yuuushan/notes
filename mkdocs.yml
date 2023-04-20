@@ -41,3 +41,4 @@ nav:
           - go/gin/live_reload_for_gin.md
           - go/gin/gin_request_parameter_processing.md
           - go/gin/grouping_routes.md
+          - go/gin/gin_middleware.md
