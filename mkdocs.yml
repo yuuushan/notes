@@ -33,3 +33,4 @@ nav:
   - Go:
       - go/slice.md
       - go/map.md
+      - go/channel.md
