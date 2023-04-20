@@ -32,3 +32,4 @@ nav:
   - index.md
   - Go:
       - go/slice.md
+      - go/map.md
