@@ -39,3 +39,4 @@ nav:
       - Gin:
           - go/gin/getting_started_with_gin.md
           - go/gin/live_reload_for_gin.md
+          - go/gin/gin_request_parameter_processing.md
