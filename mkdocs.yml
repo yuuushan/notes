@@ -36,3 +36,5 @@ nav:
       - go/slice.md
       - go/map.md
       - go/channel.md
+      - Gin:
+          - go/gin/getting_started_with_gin.md
