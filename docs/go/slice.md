@@ -2,7 +2,7 @@
 
 Slice（切片）可以理解为不固定长度的数组。它的类型和操作比数组更加灵活。Slice 是数组的一个引用。
 
-## 1 结构组成
+## 结构组成
 
 `src/runtime/slice.go` 中 slice 的结构如下：
 
@@ -26,7 +26,7 @@ type slice struct {
 
 数组的长度和容量是一样的。
 
-## 2 定义 slice
+## 定义 slice
 
 ```go
 // 声明一个 slice，但没有分配空间。此时 s 等于 nil
@@ -48,7 +48,7 @@ s := arr[2:4]
 s2 := s[2:4]
 ```
 
-## 3 向 slice 追加元素
+## 向 slice 追加元素
 
 向 slice 追加元素使用内置的 `append()` 函数。如果追加后总元素数超过 slice 的容量，slice 会自动扩容。
 
@@ -67,7 +67,7 @@ Slice 后使用 `...` 运算符会把 slice 打散作为参数传递。
 
 > https://golang.org/ref/spec#Appending_and_copying_slices
 
-## 4 遍历 slice 元素
+## 遍历 slice 元素
 
 使用内置的 `range()` 函数可以遍历 slice 元素。用法如下：
 
