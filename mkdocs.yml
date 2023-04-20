@@ -38,3 +38,4 @@ nav:
       - go/channel.md
       - Gin:
           - go/gin/getting_started_with_gin.md
+          - go/gin/live_reload_for_gin.md
