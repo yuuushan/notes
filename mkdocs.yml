@@ -1,0 +1,34 @@
+site_name: Notes
+repo_url: https://github.com/yuuushan/notes
+repo_name: yuuushan/notes
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - mdx_truly_sane_lists
+
+nav:
+  - index.md
+  - Go:
+      - go/slice.md
