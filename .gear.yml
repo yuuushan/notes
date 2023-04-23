@@ -3,6 +3,7 @@ commit:
   message-template: "{{.Type}} {{if .Scope}}({{.Scope}}): {{end}}{{.Summary}}"
   scopes:
     - go
+    - misc
   types:
     - text: 📝
       note: "对文档内容的修改"

@@ -42,3 +42,5 @@ nav:
           - go/gin/gin_request_parameter_processing.md
           - go/gin/grouping_routes.md
           - go/gin/gin_middleware.md
+  - 杂项:
+      - misc/gimp-use_gimp_to_resize_an_image.md
